@@ -16,7 +16,7 @@ SMS Spam Classifier is a machine learning project that classifies SMS messages a
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/sms-spam-classifier.git
+   git clone https://github.com/Anshul21107/sms-spam-classifier.git
 
 2. Navigate to the project directory:
 
@@ -46,15 +46,15 @@ SMS Spam Classifier is a machine learning project that classifies SMS messages a
    result = classifier.classify(message)
    print(result)
 
-##Data
+## Data
 The SMS Spam Classifier uses a labeled dataset of SMS messages. The dataset is included in the data directory. It consists of two columns: text and label, where text contains the SMS messages, and label contains the corresponding labels (spam or ham).
 
-##Model
+## Model
 The project uses a machine learning model for text classification. The model architecture and hyperparameters can be found in the model.py file.
 
-##Evaluation
+## Evaluation
 The performance of the SMS Spam Classifier is evaluated using metrics such as accuracy, precision, recall, and F1-score. You can find the evaluation results in the evaluation.ipynb Jupyter Notebook.
 
-##Contributing
+## Contributing
 Contributions to this project are welcome! If you would like to contribute, please open an issue or submit a pull request. For major changes, please discuss them in advance.
 
