@@ -9,7 +9,6 @@ SMS Spam Classifier is a machine learning project that classifies SMS messages a
 - [Data](#data)
 - [Model](#model)
 - [Evaluation](#evaluation)
-- [Contributing](#contributing)
 
 ## Installation
 
@@ -47,14 +46,12 @@ SMS Spam Classifier is a machine learning project that classifies SMS messages a
    print(result)
 
 ## Data
-The SMS Spam Classifier uses a labeled dataset of SMS messages. The dataset is included in the data directory. It consists of two columns: text and label, where text contains the SMS messages, and label contains the corresponding labels (spam or ham).
+The SMS Spam Classifier uses a labeled dataset of SMS messages. The dataset is with name spam.csv. It consists of two columns: text and label, where text contains the SMS messages, and label contains the corresponding labels (spam or ham).
 
 ## Model
-The project uses a machine learning model for text classification. The model architecture and hyperparameters can be found in the model.py file.
+The project uses a machine learning model for text classification. The model architecture and hyperparameters can be found in the model.pkl file.
 
 ## Evaluation
-The performance of the SMS Spam Classifier is evaluated using metrics such as accuracy, precision, recall, and F1-score. You can find the evaluation results in the evaluation.ipynb Jupyter Notebook.
+The performance of the SMS Spam Classifier is evaluated using metrics such as accuracy, precision, recall, and F1-score. You can find the evaluation results in the SMS_Spam_detection.ipynb Jupyter Notebook.
 
-## Contributing
-Contributions to this project are welcome! If you would like to contribute, please open an issue or submit a pull request. For major changes, please discuss them in advance.
 
